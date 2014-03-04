@@ -9,7 +9,7 @@ Then log in to the VM using ssh:
 vagrant ssh
 </pre>
 
-Now you can spin up a Docker container containing Virtuoso 7 Open Source edition.
+Now you can spin up a Docker container running the Virtuoso 7 server (Open Source Edition).
 
 <pre>
 $ docker run -i -t -p 8890:8890 grove/virtuoso-compiled /usr/local/virtuoso-opensource/bin/virtuoso-t -df +configfile /usr/local/virtuoso-opensource/var/lib/virtuoso/db/virtuoso.ini
